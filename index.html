@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Residences</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row fixed-top bg-white">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler d-block d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+                        </button>
+                        <a class="navbar-brand" href="#"><img src="./img/Logo.png" alt=""></a>
+
+                        <a class="d-block d-md-none" href=""><img src="./img/Call_cta.png" alt=""></a>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Overview</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Highlights & Amenities</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Floor Plan</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Price</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><button type="button" class="btn btn-success">Call Us</button></a>
+                                </li>
+                                <div class="contact_nav d-block d-md-none">
+                                    <div class="d-flex contact_nav_area justify-content-between align-items-center w-100">
+                                        <div class="whats_app">
+                                            <a href="">
+                                                <h5><i class="fa-brands fa-whatsapp"></i> Whatsapp Us</h5>
+                                            </a>
+                                        </div>
+                                        <div class="get_touch">
+                                            <a href="">
+                                                <h5>Get in Touch</h5>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="row main_banner">
+            <div class="col-12">
+                <div class="row  h-100">
+                    <div class="col-md-5 col-12 form_section d-flex align-items-center justify-content-center">
+                        <div>
+                            <h5>51 Balewadi <br> Residences, Pune</h5>
+                            <span class="home_type"> 2 BHK Homes <span class="mx-3">|</span> Starting ₹69 Lakhs</span>
+                            <form action="https://formspree.io/f/mayvrrak" method="POST" enctype="multipart/form-data" class="my-3 px-3 d-flex flex-column justify-content-center align-items-center">
+                                <p class="text-center my-3">Avail Pre-Launch Offers</p>
+                                <div class="mb-3 w-100">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input type="text" name="Name" class="form-control" aria-describedby="Name">
+                                </div>
+                                <div class="mb-3  w-100">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" name="Email" class="form-control" aria-describedby="Email">
+                                </div>
+                                <div class="mb-3 w-100">
+                                    <label for="Mobile" class="form-label">Mobile</label>
+                                    <input type="tel" name="Mobile" class="form-control" aria-describedby="Mobile">
+                                </div>
+                                <button type="submit" class="btn btn-success my-3">Book Now</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row justify-content-evenly py-5">
+            <div class="col-10">
+                <div class="row">
+                    <div class="col-12 col-md-4 d-flex justify-content-around img_row my-3">
+                        <div class="img_box d-flex align-items-center justify-content-center flex-column">
+                            <img src="./img/Property_Type.png" alt="">
+                            <h5>Property Type</h5>
+                            <p>Residential Apts</p>
+                        </div>
+                        <div class="img_box d-flex align-items-center justify-content-center flex-column">
+                            <img src="./img/Configuration.png" alt="">
+                            <h5>Configuration</h5>
+                            <p>2 BHK</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4 d-flex justify-content-around img_row my-3">
+                        <div class="img_box d-flex align-items-center justify-content-center flex-column">
+                            <img src="./img/Pricing.png" alt="">
+                            <h5>Pricing</h5>
+                            <p>₹69 Lakhs (all incl.)</p>
+                        </div>
+                        <div class="img_box d-flex align-items-center justify-content-center flex-column">
+                            <img src="./img/Possession.png" alt="">
+                            <h5>Possession</h5>
+                            <p>June 2023</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4 d-flex justify-content-around img_row my-3">
+                        <div class="img_box d-flex align-items-center justify-content-center flex-column">
+                            <img src="./img/Vaastu_Shastra.png" alt="">
+                            <h5>Vaastu Shastra</h5>
+                            <p>Vaastu Compliant</p>
+                        </div>
+                        <div class="img_box d-flex align-items-center justify-content-center flex-column">
+                            <img src="./img/Location.png" alt="">
+                            <h5>Location</h5>
+                            <p class="text-center">Balewadi <br> High-Street, Pune</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row justify-content-evenly py-5">
+            <div class="col-12">
+                <div class="row justify-content-between">
+                    <div class="col-12 col-md-4 offset-md-1 p-3 order-2 order-md-1">
+                        <h1>Tornado</h1>
+                        <sapn>By Shapoorji Pallonji</sapn>
+                        <p class="my-3">P51 Balewadi Residences is a landmark residential project offering luxurious apartments. Developed by the leading developer, Utsav Homes Group, the stunning structure is situated in Pune’s most enviable location, Balewadi.</p>
+                        <button class="btn btn-success my-3">Download Brochure</button>
+                    </div>
+                    <div class="col-12 col-md-7 order-1 order-md-2 swiper pb-5">
+                        <div class="img_area swiper-wrapper">
+                            <div class="img_item mx-3 swiper-slide">
+                                <img src="./img/Img.png" alt="" width="100%" height="400px">
+                            </div>
+                            <div class="img_item mx-3 swiper-slide">
+                                <img src="./img/Img.png" alt="" width="100%" height="400px">
+                            </div>
+                            <div class="img_item mx-3 swiper-slide">
+                                <img src="./img/Img.png" alt="" width="100%" height="400px">
+                            </div>
+                        </div>
+                        <div class="swiper-pagination d-block d-md-none"></div>
+                        <div class="all_pageination align-items-center justify-content-center">
+                            <div class="scroll_swipe">
+                                <div class="swiper-scrollbar"></div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                        <div class="row control-button d-none d-md-block my-2">
+                            <div class="col-12 position-relative d-flex justify-content-center align-items-center">
+                                <i class="fa-solid fa-arrow-left swiper_btn swiper-prev mx-3"></i>
+                                <i class="fa-solid fa-arrow-right swiper_btn swiper-next mx-3"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html,
+body {
+  font-family: 'Frank Ruhl Libre', serif;
+  font-size: 16px; }
+
+.navbar {
+  padding: 1rem 3rem; }
+  @media (max-width: 576px) {
+    .navbar {
+      padding: 1rem 0; } }
+  .navbar a {
+    color: #000000;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px; }
+    .navbar a.active {
+      font-weight: 500; }
+  .navbar .nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+
+.navbar-toggler:focus {
+  box-shadow: none; }
+
+@media (max-width: 576px) {
+  ul.navbar-nav {
+    height: 92vh; } }
+
+.main_banner {
+  background-image: url(../img/main_bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 670px;
+  height: 80vh;
+  margin-top: 10vh; }
+  .main_banner .form_section {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(44.7122px);
+    height: 100%;
+    color: #FFFFFF;
+    margin: 0 1rem; }
+    @media (max-width: 576px) {
+      .main_banner .form_section {
+        margin: 0; } }
+    .main_banner .form_section h5 {
+      font-weight: 400;
+      font-size: 42px;
+      line-height: 60px; }
+    .main_banner .form_section .home_type {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 30px; }
+    .main_banner .form_section form p {
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 30px; }
+    .main_banner .form_section form button[type=submit] {
+      width: 100%; }
+
+.all_pageination {
+  position: relative;
+  display: flex; }
+  .all_pageination .swiper-scrollbar.swiper-scrollbar-horizontal {
+    position: absolute;
+    left: 1%;
+    bottom: 3px;
+    z-index: 50;
+    height: 3px;
+    width: 46%;
+    transform: translateY(-7px); }
+  .all_pageination .swiper-pagination-fraction {
+    bottom: 0px;
+    left: 0; }
+  .all_pageination .swiper-scrollbar-drag {
+    background-color: #06BA63; }
+  @media (max-width: 576px) {
+    .all_pageination {
+      display: none; } }
+
+.control-button {
+  position: relative;
+  z-index: 50;
+  transform: translate(100px, -30px); }
+
+.contact_nav {
+  position: absolute;
+  bottom: 25px;
+  left: 0;
+  width: 100%;
+  min-height: 50px;
+  color: #fff;
+  background-color: #000000; }
+  .contact_nav .contact_nav_area {
+    min-height: 50px; }
+  .contact_nav a {
+    text-decoration: none;
+    color: #FFFFFF; }
+    .contact_nav a h5 {
+      text-align: center;
+      line-height: 100%; }
+  .contact_nav .whats_app,
+  .contact_nav .get_touch {
+    min-width: 200px; }
+
+.swiper_btn {
+  transition: all 0.5s; }
+  .swiper_btn:hover {
+    transform: scale(2); }

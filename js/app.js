@@ -1,3 +1,14 @@
+let btn_close= document.querySelector(".btn_close");
+let navbar_collapse=document.querySelector(".navbar-collapse");
+
+
+
+btn_close.addEventListener('click',()=>{
+  navbar_collapse.classList.remove("show");
+  
+})
+
+
 const swiper = new Swiper('.swiper', {
     // Optional parameters
     loop: true,

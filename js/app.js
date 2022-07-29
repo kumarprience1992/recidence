@@ -38,12 +38,12 @@ const swiper = new Swiper('.swiper', {
           spaceBetween: 10
         },
         768: {
-          slidesPerView: 1,
+          slidesPerView: 10,
 
         },
         1024: {
-          slidesPerView: 1,
-          spaceBetween: 100
+          slidesPerView: "auto",
+          
         },
       },
   });

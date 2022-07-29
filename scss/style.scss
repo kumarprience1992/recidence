@@ -37,7 +37,21 @@
     
     @media (max-width:576px) {
         ul.navbar-nav {
-            height: 92vh;
+            height: 90vh;
+            @media (max-width: 576px) {
+                padding-top: 3rem;
+            }
+        }
+    }
+    
+    .btn_close {
+        padding: 0.5rem;
+        border-radius: 50%;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        &:focus {
+            box-shadow: none;
         }
     }
     
@@ -77,6 +91,15 @@
                 button[type=submit] {
                     width: 100%;
                 }
+                .form-control {
+                    background: rgba(255, 255, 255, 0.4);
+                    border-radius: 5px;
+                    border: none;
+                    &:focus {
+                        outline: none;
+                        box-shadow: none;
+                    }
+                }
             }
         }
     }
@@ -84,6 +107,7 @@
     .all_pageination {
         position: relative;
         display: flex;
+        transform: translateX(105px);
         .swiper-scrollbar.swiper-scrollbar-horizontal {
             position: absolute;
             left: 1%;
@@ -108,7 +132,7 @@
     .control-button {
         position: relative;
         z-index: 50;
-        transform: translate(100px, -30px);
+        transform: translate(200px, -30px);
     }
     
     .contact_nav {
@@ -132,7 +156,7 @@
         }
         .whats_app,
         .get_touch {
-            min-width: 200px;
+            min-width: 180px;
         }
     }
     
@@ -141,4 +165,8 @@
         &:hover {
             transform: scale(2);
         }
+    }
+    
+    .swiper-slide {
+        width: 75%;
     }

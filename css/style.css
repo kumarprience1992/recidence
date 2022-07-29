@@ -85,7 +85,8 @@ body {
 
 .all_pageination {
   position: relative;
-  display: flex; }
+  display: flex;
+  transform: translateX(105px); }
   .all_pageination .swiper-scrollbar.swiper-scrollbar-horizontal {
     position: absolute;
     left: 1%;
@@ -106,7 +107,7 @@ body {
 .control-button {
   position: relative;
   z-index: 50;
-  transform: translate(100px, -30px); }
+  transform: translate(200px, -30px); }
 
 .contact_nav {
   position: absolute;
@@ -132,3 +133,6 @@ body {
   transition: all 0.5s; }
   .swiper_btn:hover {
     transform: scale(2); }
+
+.swiper-slide {
+  width: 75%; }

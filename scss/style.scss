@@ -41,12 +41,20 @@
         box-shadow: none;
     }
     
+    .form_head {
+        text-align: center;
+    }
+    
     @media (max-width:576px) {
         ul.navbar-nav {
             height: 90vh;
             @media (max-width: 576px) {
                 padding-top: 3rem;
             }
+        }
+        .form_head {
+            text-align: left;
+            width: 100%;
         }
     }
     

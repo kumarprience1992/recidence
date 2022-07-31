@@ -11,7 +11,7 @@ btn_close.addEventListener('click',()=>{
 
 const swiper = new Swiper('.swiper', {
     // Optional parameters
-    loop: true,
+//     loop: true,
     slidesPerView: 1,
   
     // If we need pagination

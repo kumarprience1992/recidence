@@ -127,6 +127,16 @@ h1 {
   position: relative;
   z-index: 50;
   transform: translate(200px, -30px); }
+  .control-button .swiper_btn {
+    transform: scale(1.5);
+    transition: all 0.5s; }
+    .control-button .swiper_btn.swiper-button-disabled {
+      transform: scale(1);
+      color: gray; }
+    .control-button .swiper_btn:hover {
+      transform: scale(2); }
+  .control-button .swiper-button-disabled {
+    color: gray; }
 
 .contact_nav {
   position: absolute;
@@ -147,11 +157,6 @@ h1 {
   .contact_nav .whats_app,
   .contact_nav .get_touch {
     min-width: 170px; }
-
-.swiper_btn {
-  transition: all 0.5s; }
-  .swiper_btn:hover {
-    transform: scale(2); }
 
 .swiper-slide {
   width: 75%; }

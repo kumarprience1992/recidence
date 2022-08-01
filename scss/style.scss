@@ -128,7 +128,7 @@
     .all_pageination {
         position: relative;
         display: flex;
-        transform: translateX(105px);
+        transform: translate(105px, 10px);
         .swiper-scrollbar.swiper-scrollbar-horizontal {
             position: absolute;
             left: 1%;
@@ -154,6 +154,27 @@
         position: relative;
         z-index: 50;
         transform: translate(200px, -30px);
+        .swiper_btn {
+            transform: scale(1.5);
+            transition: all 0.5s;
+            &.swiper-button-disabled {
+                transform: scale(1);
+                color: gray;
+            }
+            &:hover {
+                transform: scale(2);
+            }
+        }
+        .swiper-button-disabled {
+            color: gray;
+        }
+    }
+    
+    .btn_Brochure {
+        width: 300px;
+        @media (max-width: 576px) {
+            width: 100%;
+        }
     }
     
     .contact_nav {
@@ -181,13 +202,20 @@
         }
     }
     
-    .swiper_btn {
-        transition: all 0.5s;
-        &:hover {
-            transform: scale(2);
+    .swiper-slide {
+        width: 73%;
+        @media (max-width: 576px) {
+            width: auto;
         }
     }
     
-    .swiper-slide {
-        width: 75%;
+    .pagination_mobile {
+        bottom: 4rem !important;
+        .swiper-pagination-bullet {
+            background: #ffffff;
+            opacity: 0.5;
+            &.swiper-pagination-bullet-active {
+                opacity: 1;
+            }
+        }
     }

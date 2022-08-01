@@ -9,9 +9,9 @@ btn_close.addEventListener('click',()=>{
 })
 
 
-const swiper = new Swiper('.swiper', {
+const swiper = new Swiper('.swiper_desktop', {
     // Optional parameters
-//     loop: true,
+    // loop: true,
     slidesPerView: 1,
   
     // If we need pagination
@@ -35,15 +35,22 @@ const swiper = new Swiper('.swiper', {
     breakpoints: {
         640: {
           slidesPerView: 1,
-          spaceBetween: 10
         },
         768: {
-          slidesPerView: 10,
+          slidesPerView: 1,
 
         },
         1024: {
           slidesPerView: "auto",
-          
         },
       },
   });
+
+
+  var swiper_mobile = new Swiper(".swiper_mobile", {
+    pagination: {
+      el: ".swiper-pagination",
+    },
+  });
+
+
